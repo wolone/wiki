@@ -6,23 +6,15 @@ titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
   name: WOWFANS
-  text: 魔兽世界爱好者文档库
-  tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
-  actions:
-    - theme: brand
-      text: Get Started
-      link: /guide/getting-started
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
-
+  text: AC爱好者文档库
+  tagline: 完整的开源和模块化MMO解决方案
 features:
-  - title: "Vite: The DX that can't be beat"
-    details: Feel the speed of Vite. Instant server start and lightning fast HMR that stays fast regardless of the app size.
-  - title: Designed to be simplicity first
-    details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
-  - title: Power of Vue meets Markdown
-    details: Enhance your content with all the features of Vue in Markdown, while being able to customize your site with Vue.
-  - title: Fully static yet still dynamic
-    details: Go wild with true SSG + SPA architecture. Static on page load, but engage users with 100% interactivity from there.
+  - title: 基础
+    details: AzerothCore拥有强大而坚实的基础，来自多年的发展：它基于MaNGOS，TrinityCore和SunwellCore。
+  - title: 开源
+    details: AzerothCore 模块在 GNUAGPL 3.0和GNU GPL 2.0 下发布， 这两个许可证都是完全免费和开源的。 我们相信自由软件，我们热爱合作。
+  - title: 社区
+    details: 艾泽拉斯核心的主要优势在于其社区。用户可以通过改进我们的代码库或简单地提交任何错误报告来帮助我们。如果您想做出贡献，我们会很高兴！
+  - title: 模块
+    details: 我们试图使我们的软件尽可能模块化，因为模块化软件更容易扩展。
 ---
