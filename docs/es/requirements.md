@@ -2,6 +2,8 @@
 
 {% include important.html content="Desde el **19 de septiembre de 2024**, **MariaDB** y **MySQL en sus versiones 5.7 y 8.1** ya no son compatibles." %}
 
+{% include important.html content="**MySQL 26.x.x** no es compatible. Usa **MySQL 8.4 LTS** en su lugar." %}
+
 | Guía de instalación | |
 | :- | :- |
 | Este artículo es parte de la Guía de instalación. Puedes leerlo solo o hacer click en el enlace anterior para moverte fácilmente entre los pasos. |

@@ -1,5 +1,7 @@
 # Requisitos de macOS
 
+{% include important.html content="**MySQL 26.x.x** no es compatible. Usa **MySQL 8.4 LTS** en su lugar." %}
+
 | Guía de instalación | |
 | :- | :- |
 | Este artículo es parte de la Guía de instalación. Puedes leerlo solo o hacer click en el enlace anterior para moverte fácilmente entre los pasos. |
