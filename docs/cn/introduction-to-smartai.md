@@ -7,7 +7,7 @@
 
 ---
 
-## 第一部分：编写一个简单的脚本化巡逻
+## 第一部分：编写一个简单的脚本化巡逻 {#part-i-scripting-a-simple-scripted-patrol}
 
 为此我们将编写一个简单的巡逻 RP 脚本，一个每隔一段时间通过计时器触发并涉及一条路径的脚本。
 
@@ -116,7 +116,7 @@ INSERT INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_
 3. 执行动作并给生物分配一个 Actionlist，它将播放一系列延迟动作
 4. 一旦巡逻完成，它会等待 3 分钟然后重新开始
 
-## 第二部分：事件阶段（Event Phases）与链接（Links）
+## 第二部分：事件阶段（Event Phases）与链接（Links） {#part-ii-event-phases-and-links}
 
 大多数敌对生物都比较简单，遵循一两个计时器并施放几个法术，几分钟内就能轻松完成。SmartAI 的强大之处并不在于遵循简单的法术计时器。为了举例说明，我们来看看一些外域生物的脚本，我觉得它们相当有趣。在外域有几种虚空生物，其中的施法者具有一种彼此共享的特殊脚本结构。
 
@@ -160,7 +160,7 @@ INSERT INTO `smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `event_
 
 如果我们制作太多链接，它们会使脚本更难以维护，因为更改一行可能需要更改所有行。对于一系列中的多个链接，我通常更喜欢使用定时 Actionlists，使用 TimerType 2 以确保它在战斗中也能播放。这样可以更容易地将迷你脚本封装在主生物脚本中，而不会产生混乱的链接（spaghetti links）。
 
-## 第三部分：条件（Conditions）、唯一 AI 与数据集（Data Set）
+## 第三部分：条件（Conditions）、唯一 AI 与数据集（Data Set） {#part-iii-conditions-unique-ai-and-data-set}
 
 在破碎大厅（Shattered Halls）中，有一种名为碎手军团士兵（Shattered Hand Legionnaire）的生物。
 

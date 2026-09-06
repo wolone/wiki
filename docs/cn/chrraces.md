@@ -37,7 +37,7 @@
 | 68     | hairCustomization       | String  | 发型自定义的内部名称。牛头人为角，其他种族为普通发型。 |
 | 69     | required_expansion      | Integer | 0 = 经典旧世且不可玩，1 = 燃烧的远征                                      |
 
-### 内容
+### 内容 {#content}
 
 | ID  | 值   | 名称               |
 | --- | ------- | ------------------ |

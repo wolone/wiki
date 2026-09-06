@@ -80,7 +80,7 @@ mkdir build
 cd build
 ```
 
-### 配置编译
+### 配置编译 {#configuring-for-compiling}
 
 高级用户的参数说明请参阅 [CMake 选项](cmake-options)。
 
@@ -122,7 +122,7 @@ make -j$BUILD_CORES &&
 make install
 ```
 
-## （可选）Systemd 服务
+## （可选）Systemd 服务 {#optional-systemd-services}
 
 Systemd 服务可以帮助你管理 AzerothCore 服务器。下面显示的服务文件在大多数发行版中必须由 `root` 用户安装。在大多数发行版中，合适的位置是 `/etc/systemd/system`。
 

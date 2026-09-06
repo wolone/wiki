@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Hooks-Bash"
+redirect_from: "/cn/Hooks-Bash"
 ---
 
 # Hooks Bash

@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Spell"
+redirect_from: "/cn/Spell"
 ---
 
 # Spell

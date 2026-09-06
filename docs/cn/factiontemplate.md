@@ -1,5 +1,5 @@
 ---
-redirect_from: "/FactionTemplate"
+redirect_from: "/cn/FactionTemplate"
 ---
 
 # FactionTemplate

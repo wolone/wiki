@@ -76,7 +76,7 @@ Administrator (192)
 
 这些默认值存储在 [rbac_default_permissions](rbac_default_permissions) 中。
 
-## 权限解析
+## 权限解析 {#permission-resolution}
 
 当计算账号的权限时，会执行以下步骤：
 
@@ -88,7 +88,7 @@ Administrator (192)
 
 这意味着拒绝一个角色就会拒绝该角色所包含的一切。
 
-## 命令
+## 命令 {#commands}
 
 `.rbac` 命令允许无需重启服务器即可实时管理账号权限。
 

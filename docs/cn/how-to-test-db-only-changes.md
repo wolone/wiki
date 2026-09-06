@@ -1,5 +1,5 @@
 ---
-redirect_from: "/How-to-test-DB-only-changes"
+redirect_from: "/cn/How-to-test-DB-only-changes"
 ---
 
 # 如何测试仅包含数据库（DB）更改的内容

@@ -1,5 +1,5 @@
 ---
-redirect_from: "/TotemCategory"
+redirect_from: "/cn/TotemCategory"
 ---
 
 # TotemCategory

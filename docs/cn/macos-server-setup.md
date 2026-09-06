@@ -22,7 +22,7 @@
 | mmaps    | 强烈推荐           |
 | cameras  | 推荐               |
 
-## 选项 1：下载预解压文件
+## 选项 1：下载预解压文件 {#option-1-download-pre-extracted-files}
 
 如果你打算使用 enUS 客户端，可以下载下面的数据文件。如果你打算使用任何其他语言的客户端，则需要[自行解压](#option-2-extract-files-yourself)数据。
 
@@ -36,7 +36,7 @@
 
 4. 编辑你的 [DataDir](#updating-datadir) 配置选项，将其指向你的文件夹位置。
 
-## 选项 2：自行解压文件
+## 选项 2：自行解压文件 {#option-2-extract-files-yourself}
 
 **（如果你已经下载了上面的文件，则不需要执行此操作）**
 
@@ -90,7 +90,7 @@ mkdir mmaps;
 
 现在所有操作都已完成，你需要将 **dbc**、**maps**、**vmaps** 和 **mmaps** 文件夹复制到你的 AzerothCore 构建目录（例如 **$HOME/azeroth-server/data/**）。
 
-## 配置文件：Worldserver 和 Authserver
+## 配置文件：Worldserver 和 Authserver {#config-files-worldserver-and-authserver}
 
 首先你需要找到两个默认配置文件（名为 **worldserver.conf.dist** 和 **authserver.conf.dist**）并复制它们。然后将副本重命名为不带 .dist 扩展名的同名文件。你可以在 /build/configs/ 中找到它们（位置可能有所不同）。
 
@@ -121,7 +121,7 @@ Variablename = "MySQLIP;Port;Username;Password;database"
 
     - 在你首选的数据库管理工具中的用户管理器（通常以一个像人形的图标标识）里创建一个独立的登录账号，并授予它必要的权限（SELECT、INSERT、UPDATE、DELETE 权限就足够了，而且更安全）。
 
-### 更新 DataDir
+### 更新 DataDir {#updating-datadir}
 
 1. 在你的 **worldserver.conf** 文件中找到 **DataDir** 选项。
 

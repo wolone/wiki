@@ -1,5 +1,5 @@
 ---
-redirect_from: /documentation_index
+redirect_from: /cn/documentation_index
 ---
 
 # 文档索引

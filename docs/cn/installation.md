@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Installation"
+redirect_from: "/cn/Installation"
 ---
 
 # 安装指南

@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Hooks-Cmake"
+redirect_from: "/cn/Hooks-Cmake"
 ---
 
 # Hooks CMake

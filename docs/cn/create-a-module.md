@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Create-a-Module"
+redirect_from: "/cn/Create-a-Module"
 ---
 
 # 创建模块

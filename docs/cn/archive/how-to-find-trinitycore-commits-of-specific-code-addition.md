@@ -1,5 +1,5 @@
 ---
-redirect_from: "/How-to-find-TrinityCore-commits-of-specific-code-addition"
+redirect_from: "/cn/How-to-find-TrinityCore-commits-of-specific-code-addition"
 ---
 
 # 如何查找特定代码新增对应的 TrinityCore 提交

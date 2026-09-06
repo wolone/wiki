@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Database-squash"
+redirect_from: "/cn/Database-squash"
 ---
 
 # 数据库压缩 (Database Squash)

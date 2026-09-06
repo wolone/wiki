@@ -1,6 +1,6 @@
 ---
 tableofcontents: 1
-redirect_from: "/Install-with-Docker"
+redirect_from: "/cn/Install-with-Docker"
 ---
 
 # 使用 Docker 安装
@@ -49,7 +49,7 @@ git clone https://github.com/azerothcore/azerothcore-wotlk.git --depth 1
 
 现在使用 `cd azerothcore-wotlk` 进入主目录。**所有命令都必须在（此文件夹内）运行**。
 
-### 安装
+### 安装 {#installation}
 
 要构建容器，请运行 `docker compose build`。然后要启动容器，请运行 `docker compose up -d`
 
@@ -102,7 +102,7 @@ MSYS_NO_PATHCONV=1 ./acore.sh docker build
 ./acore.sh docker start:app:d
 ```
 
-### 创建账号
+### 创建账号 {#creating-an-account}
 
 #### 1) 访问 worldserver 控制台
 
@@ -235,7 +235,7 @@ services:
 
 如果服务器崩溃，你可以在 `/azerothcore` 文件夹中找到 crashdump 文件（`gdb.txt`）。可以使用 `docker cp ac-worldserver:/azerothcore/gdb.txt ./gdb.txt` 命令将其复制出来。
 
-### .devcontainer 支持
+### .devcontainer 支持 {#devcontainer-support}
 
 在 `docker-compose.yml` 中，我们定义了 `ac-dev-server` 服务
 此服务用于我们的构建和数据库操作，但你也可以使用它通过 [VSCode Remote Docker 扩展](https://code.visualstudio.com/docs/remote/containers)进行开发

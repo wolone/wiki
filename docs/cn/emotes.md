@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Emotes"
+redirect_from: "/cn/Emotes"
 ---
 
 # 表情（Emotes）

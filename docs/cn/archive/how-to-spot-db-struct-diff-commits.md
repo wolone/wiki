@@ -1,5 +1,5 @@
 ---
-redirect_from: "/How-to-spot-db-struct-diff-commits"
+redirect_from: "/cn/How-to-spot-db-struct-diff-commits"
 ---
 
 # 如何定位数据库结构差异提交

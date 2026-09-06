@@ -1,5 +1,5 @@
 ---
-redirect_from: "/PageTextMaterial"
+redirect_from: "/cn/PageTextMaterial"
 ---
 
 # PageTextMaterial

@@ -159,7 +159,7 @@ Initial Bucket Name: worldserver
 
 [例如使用 Chronograf 来可视化数据。](#additional-visualizations-and-metrics-collection)
 
-## 附加的可视化与指标采集
+## 附加的可视化与指标采集 {#additional-visualizations-and-metrics-collection}
 
 InfluxDB 是 [InfluxData](https://www.influxdata.com/) 一系列相互集成良好的项目中的一员：
 

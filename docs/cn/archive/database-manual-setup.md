@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Database-Manual-Setup"
+redirect_from: "/cn/Database-Manual-Setup"
 ---
 
 # 数据库手动安装

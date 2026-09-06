@@ -1,5 +1,5 @@
 ---
-redirect_from: "/SkillLine"
+redirect_from: "/cn/SkillLine"
 ---
 
 # SkillLine

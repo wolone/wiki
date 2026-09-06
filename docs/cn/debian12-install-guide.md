@@ -14,7 +14,7 @@
   - [常见问题](#common-problems)
   - [其他资源](#other-resources)
 
-## 环境要求
+## 环境要求 {#requirements}
 ##### [PuTTY](https://www.putty.org/)
 - 一个用于向服务器发送命令的 Windows 程序。
 ##### [Debian 12](https://www.ovhcloud.com/en-ca/vps/)
@@ -25,7 +25,7 @@
   - 一个用于连接服务器 SQL 数据库的 Windows 程序。本指南不涉及。如果你想使用 HeidiSQL 连接数据库，请[阅读这篇](https://www.enovision.net/mysql-ssh-tunnel-heidisql)
 
 ---
-## Debian 设置
+## Debian 设置 {#debian-setup}
 ### 首次登录
 
 - 使用 **PuTTY** 通过主机提供商提供的 IP 地址和登录凭据连接到你的 Debian 服务器。
@@ -102,7 +102,7 @@ EOF
 ```
 ---
 
-## SSH 设置
+## SSH 设置 {#ssh-setup}
 这是一个**可选的**步骤，涉及创建密钥文件并禁用基于密码的 SSH 登录，以提高 Debian 服务器和 SQL 数据库的安全性。
 
 <details><summary>▫️▫️▫️</summary>
@@ -153,7 +153,7 @@ sudo service ssh restart
 </details>
 
 ---
-## AzerothCore 安装
+## AzerothCore 安装 {#azerothcore-installation}
 ### 克隆仓库
 ```bash
 git -C ~/ clone https://github.com/azerothcore/azerothcore-wotlk.git --branch master --single-branch azerothcore
@@ -204,7 +204,7 @@ account set gmlevel USERNAME 3 -1
 ```
 - 使用 Ctrl+C 从 worldserver 分离。
 
-### 设置 Realm IP
+### 设置 Realm IP {#set-realm-ip}
 ```bash
 sudo mysql <<'EOF'
 UPDATE `acore_auth`.`realmlist` SET `address` = 'x.x.x.x' WHERE `id` = 1;
@@ -219,7 +219,7 @@ EOF
 
 ---
 
-## 维护
+## 维护 {#maintenance}
 
 ### 更改 SQL 密码
 - 这会更改 acore 数据库用户的密码。本指南使用默认的 "acore/acore" SQL 凭据。
@@ -322,7 +322,7 @@ source ~/.bash_aliases
 acoreupdate
 ```
 ---
-### 常见问题
+### 常见问题 {#common-problems}
 
 #### 登录成功但无法进入 realm。
 - 请再次检查 [realm 地址](#set-realm-ip)。
@@ -334,6 +334,6 @@ acoreupdate
 - Wordpress 注册站点和 acore-cms 插件的 SOAP 连接。
 - 使用 cron 和 rclone 自动备份数据库到 Google Drive。
 
-### 其他资源
+### 其他资源 {#other-resources}
 - [官方 AzerothCore 安装指南](installation)
 - [Digital Scriptorium 的视频](https://www.youtube.com/watch?v=k4i4za1Scgg)

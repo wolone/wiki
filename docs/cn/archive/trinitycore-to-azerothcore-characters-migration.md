@@ -1,5 +1,5 @@
 ---
-redirect_from: "/TrinityCore-to-AzerothCore-characters-migration"
+redirect_from: "/cn/TrinityCore-to-AzerothCore-characters-migration"
 ---
 
 # TrinityCore 到 AzerothCore 角色与认证数据迁移工具

@@ -1,5 +1,5 @@
 ---
-redirect_from: "/AreaTable"
+redirect_from: "/cn/AreaTable"
 ---
 
 # AreaTable

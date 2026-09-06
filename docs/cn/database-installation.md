@@ -22,7 +22,7 @@ https://github.com/azerothcore/azerothcore-wotlk/blob/master/data/sql/create/cre
 
 如果你想知道 SQL 目录是如何工作的，或打算进行自定义修改，我们建议你阅读[这篇文档](sql-directory)。
 
-#### 自动数据库更新器
+#### 自动数据库更新器 {#automatic-database-updater}
 
 认证服务器（Authserver）和世界服务器（Worldserver）会在启动时检查并应用所有必要的数据库文件。
 

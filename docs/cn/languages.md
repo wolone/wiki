@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Languages"
+redirect_from: "/cn/Languages"
 ---
 
 # Languages

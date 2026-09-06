@@ -22,7 +22,7 @@
 | mmaps     | 强烈推荐          |
 | cameras   | 推荐              |
 
-## 方案一：下载预提取文件
+## 方案一：下载预提取文件 {#option-1-download-pre-extracted-files}
 
 
 如果你打算使用 enUS 客户端，可以下载下面的数据文件。如果你打算使用任何其他语言的客户端，则需要[自行提取](#option-2-extract-files-yourself)数据。
@@ -46,7 +46,7 @@
 └── worldserver
 ```
 
-## 方案二：自行提取文件
+## 方案二：自行提取文件 {#option-2-extract-files-yourself}
 
 **（如果你下载了上面的文件，则无需此操作）**
 
@@ -83,7 +83,7 @@ vmap4_extractor
 
 完成后你会收到以下消息，可以安全地忽略它。
 
-## 配置文件：Worldserver 和 Authserver
+## 配置文件：Worldserver 和 Authserver {#config-files-worldserver-and-authserver}
 
 首先，你需要找到两个默认配置文件（名为 **worldserver.conf.dist** 和 **authserver.conf.dist**）并复制它们。然后将副本重命名为去掉 .dist 扩展名的对应名称。你可以在安装目录 **$AC_CODE_DIR/env/dist/etc/** 中找到它们。
 
@@ -114,7 +114,7 @@ Variablename = "MySQLIP;Port;Username;Password;database"
 
     - 在你偏好的数据库管理工具中的用户管理器（通常通过一个像一个人或一群人的图标来标识）中创建唯一登录账号，并赋予其必要的权限（SELECT、INSERT、UPDATE、DELETE 权限就足够了，而且更安全）。
 
-### 更新 DataDir
+### 更新 DataDir {#updating-datadir}
 
 > **注意：** DataDir 的默认值是 `"."`。这意味着如果你的客户端文件（dbc、maps、mmaps 等）与 worldserver 二进制文件位于同一目录，则无需更新此选项。
 

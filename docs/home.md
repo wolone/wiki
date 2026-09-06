@@ -6,7 +6,7 @@ redirect_from: "/"
 
 Welcome to the [AzerothCore](http://www.azerothcore.org/) project wiki.
 
-Read in: [English :gb:](home) [Spanish :es:](es/home)
+Read in: [English :gb:](home) [Spanish :es:](es/home) [简体中文 :cn:](cn/home)
 
 ## IMPORTANT NOTE
 

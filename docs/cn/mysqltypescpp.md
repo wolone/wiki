@@ -1,5 +1,5 @@
 ---
-redirect_from: "/MySQLtypesC++"
+redirect_from: "/cn/MySQLtypesC++"
 ---
 
 # MySQL 类型与 C++ 类型

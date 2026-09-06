@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Project-Versioning"
+redirect_from: "/cn/Project-Versioning"
 ---
 
 ## 项目版本管理

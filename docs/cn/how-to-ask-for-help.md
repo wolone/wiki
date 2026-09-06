@@ -1,5 +1,5 @@
 ---
-redirect_from: "/How-to-ask-for-help"
+redirect_from: "/cn/How-to-ask-for-help"
 ---
 
 # 如何寻求帮助

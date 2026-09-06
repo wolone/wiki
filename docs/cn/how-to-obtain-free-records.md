@@ -1,5 +1,5 @@
 ---
-redirect_from: "/How-to-obtain-free-records"
+redirect_from: "/cn/How-to-obtain-free-records"
 ---
 
 # 如何获取空闲的记录

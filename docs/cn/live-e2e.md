@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Live-e2e"
+redirect_from: "/cn/Live-e2e"
 ---
 
 # 在线端到端测试

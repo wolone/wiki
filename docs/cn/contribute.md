@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Contribute"
+redirect_from: "/cn/Contribute"
 ---
 
 # 参与贡献
@@ -24,13 +24,13 @@ redirect_from: "/Contribute"
 
 要参与贡献，你显然需要一个 GitHub 账号。
 
-## 如何评论一个 issue
+## 如何评论一个 issue {#how-to-comment-an-issue}
 
 你可以通过查看 [issues](https://github.com/azerothcore/azerothcore-wotlk/issues) 并加入相关讨论来提供很大帮助。
 
 你可以做的一件事是：更新你的 core，检查该 issue 在你的版本上是否仍然有效，然后写一条评论，**附上 commit 哈希值**。
 
-## 如何提交一个 issue
+## 如何提交一个 issue {#how-to-open-an-issue}
 
 在报告 bug 之前，有几件重要的事情需要做：
 
@@ -44,12 +44,12 @@ redirect_from: "/Contribute"
 - 你所运行的 AzerothCore 的 **core 版本（commit 哈希值）**，**不要只写“最新版本”**，即使你刚刚更新过 core
 - 如果是构建问题，最好还能提供你的**操作系统**和**编译器版本**
 
-## 如何测试一个 Pull Request
+## 如何测试一个 Pull Request {#how-to-test-a-pull-request}
 
 - 阅读 [如何测试 PR](how-to-test-a-pr)。
 - 官方 PR 还会针对完整的 auth + world + MySQL 环境运行[在线端到端（e2e）测试](live-e2e)。但这不能替代游戏内的测试。
 
-## 如何创建一个 Pull Request
+## 如何创建一个 Pull Request {#how-to-create-a-pull-request}
 
 - 阅读 [如何创建 PR](how-to-create-a-pr)。
 - 另外，你也可以查看[这个更简单的教程](how-to-create-a-db-pr)，了解如何通过 GitHub 提交包含 SQL 代码的 PR。
@@ -63,6 +63,6 @@ redirect_from: "/Contribute"
 
 更新：遗憾的是，当以 squash 方式合并 PR 时，GitHub 会自动将合并后 commit 的作者设置为提交该 PR 的人。因此，请在 PR 描述中提及原作者（如适用，也请附上原 commit）。
 
-## 改进 Wiki
+## 改进 Wiki {#improve-the-wiki}
 
 你想改进我们的 Wiki 或添加新页面吗？很好！请使用[我们的聊天室](https://discord.gg/PaqQRkd)来讨论。

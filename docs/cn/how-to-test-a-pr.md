@@ -1,5 +1,5 @@
 ---
-redirect_from: "/How-to-test-a-PR"
+redirect_from: "/cn/How-to-test-a-PR"
 ---
 
 # 如何测试 PR
@@ -111,7 +111,7 @@ Windows：```./acore.sh docker build```
 
 官方 PR 还会在 CI 中运行[在线端到端（e2e）测试](live-e2e)（完整的 authserver + worldserver、协议机器人）。这是额外的覆盖。它不能替代本页面上的游戏内检查。
 
-## 需要测试什么？
+## 需要测试什么？ {#what-needs-to-be-tested}
 
 PR 范围内需要测试的内容说明应由 PR 的作者在 PR 描述中提供。如果没有提供，请随时在 PR 描述中留言，请求测试说明。
 

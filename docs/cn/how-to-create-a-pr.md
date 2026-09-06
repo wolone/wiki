@@ -1,5 +1,5 @@
 ---
-redirect_from: "/How-to-create-a-PR"
+redirect_from: "/cn/How-to-create-a-PR"
 ---
 
 # 如何创建 PR
@@ -43,7 +43,7 @@ fork 创建完成后，你会看到一个显示 **YourUsername/azerothcore-wotlk
 
 *克隆*意味着将该 fork 下载到你的电脑上，这样你就可以用常用的编辑器修改文件。
 
-#### 使用 GitHub Desktop 克隆
+#### 使用 GitHub Desktop 克隆 {#clone-with-github-desktop}
 
 1. 下载并安装 [GitHub Desktop](https://desktop.github.com/)，然后使用你的 GitHub 账号登录
    （**File** → **Options** → **Accounts**）。
@@ -53,7 +53,7 @@ fork 创建完成后，你会看到一个显示 **YourUsername/azerothcore-wotlk
 
 通过 GitHub Desktop 登录也会一并处理身份验证，因此稍后推送时不会再要求你输入凭据。
 
-#### 使用命令行克隆
+#### 使用命令行克隆 {#clone-with-the-command-line}
 
 点击 “Clone or download” 按钮（在右侧），复制你的 fork 的 https 地址：
 
@@ -101,11 +101,11 @@ cd azerothcore-wotlk
 
 在上一步中你只更新了*远程* fork，但你也需要同步你的本地克隆。
 
-#### 使用 GitHub Desktop 更新你的克隆
+#### 使用 GitHub Desktop 更新你的克隆 {#update-your-clone-with-github-desktop}
 
 在 **Current branch** 下拉菜单中选择 `master` 分支，然后点击 **Fetch origin**，当它变为 **Pull origin** 后，再次点击它。
 
-#### 使用命令行更新你的克隆
+#### 使用命令行更新你的克隆 {#update-your-clone-with-the-command-line}
 
 在 `azerothcore-wotlk` 目录中打开终端并运行：
 
@@ -122,13 +122,13 @@ git pull
 
 给新分支起一个与任何现有分支都不同的名字。你可以起任何你喜欢的名字（将 “xxxx” 替换为你正在修复的内容），例如 `fix-issue-xxxx`。
 
-#### 使用 GitHub Desktop 创建分支
+#### 使用 GitHub Desktop 创建分支 {#create-the-branch-with-github-desktop}
 
 打开 **Current branch** 下拉菜单，确保 `master` 是选中的分支，然后点击 **New branch**，输入名称并用 **Create branch** 确认。
 
 **Current branch** 按钮现在会显示你的新分支：从此以后你提交的所有内容都会进入该分支。
 
-#### 使用命令行创建分支
+#### 使用命令行创建分支 {#create-the-branch-with-the-command-line}
 
 ```
 git checkout master
@@ -145,11 +145,11 @@ git checkout -b fix-issue-xxxx
 
 在本指南中，我们假设你修改了文件 `instance_deadmines.cpp`
 
-#### 使用 GitHub Desktop 选择文件
+#### 使用 GitHub Desktop 选择文件 {#selecting-files-with-github-desktop}
 
 无需任何操作：一旦你保存文件，它就会出现在左侧的 **Changes** 选项卡中，复选框已默认勾选。只有勾选的文件才会包含在你的 commit 中，所以请取消勾选任何你不想提交的文件，并在提交前点击每个文件查看你自己的差异。
 
-#### 使用命令行选择文件
+#### 使用命令行选择文件 {#selecting-files-with-the-command-line}
 
 现在添加要提交的文件：
 
@@ -171,13 +171,13 @@ git add src/server/scripts/EasternKingdoms/Deadmines/instance_deadmines.cpp
 
 否则，你的 SQL 代码必须放入 `data/sql/updates/pending_db_world` 文件夹中的**新**文件里，命名为 `rev_XXXXXXXXXXXX.sql`，其中 `XXXXXXXXXXXX` 是一个还没有其他人使用过的数字（通常使用时间戳）。永远不要编辑已有的 `rev_*.sql` 文件。
 
-#### 使用 GitHub Desktop 创建 SQL 文件
+#### 使用 GitHub Desktop 创建 SQL 文件 {#create-the-sql-file-with-github-desktop}
 
 用你的编辑器（或文件管理器）在你的克隆目录下的 `data/sql/updates/pending_db_world` 文件夹中自己创建文件，使用类似 `rev_1700000000000.sql` 的名称，并把你的 SQL 代码放进去。
 
 保存后，这个新文件就会像其他更改一样出现在 **Changes** 选项卡中。
 
-#### 使用命令行创建 SQL 文件
+#### 使用命令行创建 SQL 文件 {#create-the-sql-file-with-the-command-line}
 
 一个辅助脚本会为你生成具有唯一名称的文件：
 
@@ -213,7 +213,7 @@ fix(DB/Creature): Deadmines - Mr. Smite no longer resets
 
 有关可接受的类型、scope 及更多示例，请参阅 [commit message 规范](commit-message-guidelines)。
 
-#### 使用 GitHub Desktop 提交并推送
+#### 使用 GitHub Desktop 提交并推送 {#commit-and-push-with-github-desktop}
 
 在左下角，用 commit message 填写 **Summary** 字段，并可选地在 **Description** 字段中填写更多详细信息。然后点击 **Commit to fix-issue-xxxx**。
 
@@ -221,7 +221,7 @@ fix(DB/Creature): Deadmines - Mr. Smite no longer resets
 
 最后，点击窗口顶部的 **Publish branch**（后续提交时会变为 **Push origin**）。
 
-#### 使用命令行提交并推送
+#### 使用命令行提交并推送 {#commit-and-push-with-the-command-line}
 
 ##### 只需做一次：git config
 

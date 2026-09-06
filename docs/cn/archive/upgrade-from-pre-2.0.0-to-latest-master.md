@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Upgrade-from-pre-2.0.0-to-latest-master"
+redirect_from: "/cn/Upgrade-from-pre-2.0.0-to-latest-master"
 ---
 
 # 从 2.0.0 之前版本升级到最新 master

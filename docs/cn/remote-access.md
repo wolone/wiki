@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Remote-Access"
+redirect_from: "/cn/Remote-Access"
 ---
 
 # 远程访问

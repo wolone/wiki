@@ -1,7 +1,7 @@
 ---
 redirect_from:
-  - "/Update"
-  - "/update"
+  - "/cn/Update"
+  - "/cn/update"
 ---
 
 # 保持服务器最新

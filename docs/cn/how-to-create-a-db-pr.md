@@ -1,5 +1,5 @@
 ---
-redirect_from: "/How-to-create-a-DB-PR"
+redirect_from: "/cn/How-to-create-a-DB-PR"
 ---
 
 # 如何通过 GitHub 创建数据库 PR

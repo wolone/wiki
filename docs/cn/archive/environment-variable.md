@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Environment-Variable"
+redirect_from: "/cn/Environment-Variable"
 ---
 
 # 环境变量

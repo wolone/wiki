@@ -1,5 +1,5 @@
 ---
-redirect_from: "/FAQ"
+redirect_from: "/cn/FAQ"
 tableofcontents: 1
 ---
 

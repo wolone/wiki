@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Bit-and_bytes-tutorial"
+redirect_from: "/cn/Bit-and_bytes-tutorial"
 ---
 
 # 位与字节教程

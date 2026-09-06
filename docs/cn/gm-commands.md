@@ -1,5 +1,5 @@
 ---
-redirect_from: "/GM-Commands"
+redirect_from: "/cn/GM-Commands"
 ---
 
 # GM 命令

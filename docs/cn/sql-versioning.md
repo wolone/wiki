@@ -1,5 +1,5 @@
 ---
-redirect_from: "/SQL-Versioning"
+redirect_from: "/cn/SQL-Versioning"
 ---
 
 # SQL 版本管理

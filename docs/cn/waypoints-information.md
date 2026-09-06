@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Waypoints-Information"
+redirect_from: "/cn/Waypoints-Information"
 ---
 
 # 路径点与路径

@@ -62,7 +62,7 @@ Local path: C:\Azerothcore
 如果遇到 CMake 错误，请参见 <a href="common-errors#core-installation-errors">常见错误</a>。
 {{site.data.alerts.end}}
 
-### 编译源代码
+### 编译源代码 {#compiling-the-source}
 
 1. 在 CMake 中点击 **Open Project**，直接用 Visual Studio 打开 **AzerothCore.sln** 文件。
 

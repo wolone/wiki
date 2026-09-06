@@ -47,7 +47,7 @@ mkdir build
 cd build
 ```
 
-### 配置编译
+### 配置编译 {#configuring-for-compiling}
 
 Homebrew 用于安装软件包的目录在搭载 Apple Silicon CPU 的 Mac 和搭载 Intel CPU 的 Mac 上有所不同。请确保为你的机器运行正确的 CMake 命令。你可以在「关于本机」中查看你的 CPU 类型。下面的命令已针对相应的 CPU 类型做了标注。
 

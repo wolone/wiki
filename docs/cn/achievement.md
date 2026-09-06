@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Achievement"
+redirect_from: "/cn/Achievement"
 ---
 
 # 成就（Achievement）

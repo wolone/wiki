@@ -1,12 +1,12 @@
 ---
-redirect_from: "/"
+redirect_from: "/cn/"
 ---
 
 # 主页
 
 欢迎来到 [AzerothCore](http://www.azerothcore.org/) 项目维基。
 
-阅读语言: [English :gb:](home) [Español :es:](es/home)
+阅读语言：[English :gb:](/wiki/home) [Español :es:](/wiki/es/home)
 
 ## 重要提示
 
@@ -28,7 +28,7 @@ redirect_from: "/"
 - [Characters（角色）](database-characters)
 - [World（世界）](database-world)
 
-## 概述
+## 概述 {#overview}
 
 AzerothCore 是一个完整的开源模块化 MMO 开发解决方案。
 

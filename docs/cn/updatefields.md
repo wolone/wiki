@@ -1,5 +1,5 @@
 ---
-redirect_from: "/UpdateFields"
+redirect_from: "/cn/UpdateFields"
 ---
 
 # UpdateFields

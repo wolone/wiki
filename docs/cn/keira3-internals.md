@@ -128,7 +128,7 @@ app (scope:app-keira)
 | `test-utils` | 集成测试使用的 Page Object 基类和辅助函数。 |
 | `utils` | 通用辅助函数：`compareObjFn`、`getNumberOrString`、`getPartial`、`ModelForm` 类型、`SubscriptionHandler`（在 `ngOnDestroy` 中自动取消订阅的基类）。 |
 
-## 架构设计与基础
+## 架构设计与基础 {#architecture-design-and-fundamentals}
 
 Keira3 使用 [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)、[继承](https://www.typescriptlang.org/docs/handbook/classes.html#inheritance) 和[泛型类型](https://www.typescriptlang.org/docs/handbook/generics.html)进行结构化，以最大化代码复用。
 

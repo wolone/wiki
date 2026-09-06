@@ -1,5 +1,5 @@
 ---
-redirect_from: "/DBC-AreaTrigger"
+redirect_from: "/cn/DBC-AreaTrigger"
 ---
 
 # AreaTrigger

@@ -1,5 +1,5 @@
 ---
-redirect_from: "/The-Modular-Structure"
+redirect_from: "/cn/The-Modular-Structure"
 ---
 
 # 模块化结构

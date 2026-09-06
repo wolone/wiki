@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Directory-Structure"
+redirect_from: "/cn/Directory-Structure"
 ---
 
 # 目录结构

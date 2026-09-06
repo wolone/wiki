@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Map"
+redirect_from: "/cn/Map"
 ---
 
 # Map

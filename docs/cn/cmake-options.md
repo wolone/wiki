@@ -1,5 +1,5 @@
 ---
-redirect_from: "/CMake-options"
+redirect_from: "/cn/CMake-options"
 ---
 
 # CMake 选项

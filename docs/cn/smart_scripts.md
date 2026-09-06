@@ -1,5 +1,5 @@
 ---
-redirect_from: "/sai"
+redirect_from: "/cn/sai"
 ---
 
 # smart_scripts

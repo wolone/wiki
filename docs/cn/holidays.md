@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Holidays"
+redirect_from: "/cn/Holidays"
 ---
 
 # 节日（Holidays）

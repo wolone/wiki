@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Achievement_Criteria"
+redirect_from: "/cn/Achievement_Criteria"
 ---
 
 # 成就条件（Achievement Criteria）

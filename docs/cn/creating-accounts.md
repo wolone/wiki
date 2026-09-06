@@ -1,5 +1,5 @@
 ---
-redirect_from: "/Creating-Accounts"
+redirect_from: "/cn/Creating-Accounts"
 ---
 
 # 创建账号
